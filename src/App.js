@@ -1,23 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  let name = "Anant";
+  let numbers = [10,20,30,40]
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  <h1> This is my first React App </h1>
+  <h2> I am leaning react from now onwards</h2>
+  <h3>My name is {name}</h3>
+  {numbers.map((num)=>{
+    return <span>{num},</span>
+  })}
+
     </div>
   );
 }
