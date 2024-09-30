@@ -11,6 +11,7 @@ function App() {
   {numbers.map((num)=>{
     return <span>{num},</span>
   })}
+  {name}
 
     </div>
   );
