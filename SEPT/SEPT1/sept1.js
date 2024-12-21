@@ -20,5 +20,4 @@ function findDuplicates(arr){
 
 
 const duplicates= console.log("duplicates",findDuplicates(numbers))
-
 console.log(duplicates);
